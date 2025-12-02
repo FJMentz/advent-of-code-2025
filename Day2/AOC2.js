@@ -2,7 +2,7 @@ const { readLines } = require('../helpers');
 
 const input = readLines('./input.txt');
 
-let ranges = input.split(',');
+let ranges = input[0].split(',');
 let sum = 0;
 
 for (let i = 0; i < ranges.length; i++) {
