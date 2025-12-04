@@ -22,8 +22,6 @@ for (let i = 0; i < input.length; i++) {
     if (currentPosition === 0) {
         zeros++;
     }
-
-    console.log('After ' + change + ': position = ' + currentPosition);
 }
 
 console.log('answer: ' + zeros);
